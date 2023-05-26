@@ -5,3 +5,5 @@ cache
 .DS_Store
 .idea
 .npmrc
+docs/.vitepress/cache
+docs/.vitepress/dist
