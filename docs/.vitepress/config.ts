@@ -1,6 +1,6 @@
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
-// @ts-ignore
-import packageJSON from "../../package.json";
+
+const version = 0.1.0
 
 const blogTheme = getThemeConfig({
   // 文章默认作者
@@ -95,7 +95,7 @@ export default defineConfig({
     },
     nav:[
       {
-        text: `v${packageJSON.version}`,
+        text: `v${version}`,
         link: '/changelog'
       },
     ],
