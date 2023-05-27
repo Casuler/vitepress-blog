@@ -1,4 +1,6 @@
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
+// @ts-ignore
+import packageJSON from "../../package.json";
 
 const blogTheme = getThemeConfig({
   // 文章默认作者
@@ -89,8 +91,14 @@ export default defineConfig({
     footer: {
       message: 'A blog for personal knowledge base~',
       copyright:
-        'MIT Licensed | <a target="_blank" href="https://theme.sugarat.top/"> @sugarat/theme </a>'
+        'MIT Licensed | <a target="_blank" href="https://dlOwOlb.github.io/"> 四宮かぐや@{packageJSON.version} </a>'
     },
+    nav:[
+      {
+        text: `v${packageJSON.version}`,
+        link: '/changelog'
+      },
+    ],
     logo: 'https://cdn.staticaly.com/gh/dlOwOlb/idle_bed/master/2023/05/2675bb61adef68462f99f41642dd6a918d.jpg',
     // editLink: {
     //   pattern:

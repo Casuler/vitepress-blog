@@ -1,7 +1,8 @@
 {
   "name": "vitepress-blog",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.1.0",
+  "description": "基于VitePress的博客",
+  "./package.json": "./package.json",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -11,6 +12,7 @@
     "@element-plus/icons-vue": "^2.1.0",
     "@sugarat/theme": "^0.1.29",
     "element-plus": "^2.3.4",
+    "vitepress-plugin-tabs": "^0.2.0",
     "vue": "^3.2.47"
   },
   "devDependencies": {
