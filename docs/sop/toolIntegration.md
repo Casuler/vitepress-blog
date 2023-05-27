@@ -11,7 +11,7 @@ category:
   - 工具
 # 一个页面可以有多个标签
 tag: 
-  - 笔记方法
+  - 笔记
 # 此页面会在文章列表置顶
 sticky: true
 description: 整合了一些编程工具、文档

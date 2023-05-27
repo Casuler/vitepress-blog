@@ -73,9 +73,8 @@ export default defineConfig({
   description: '四宮かぐや的个人知识库，基于 vitepress 实现',
   head:[
       ['meta', {name: 'theme-color', content: '#ffffff'}],
-      ['link', {rel: 'icon', href: 'https://cdn.staticaly.com/gh/dlOwOlb/' +
-            'idle_bed/master/2023/05/26e943c9423e7447608b677ba1fc302002.ico', type: 'image/png'}],
-      ['link',{rel: 'alternate icon', href: '/favicon.ico', type: 'image/png', sizes: '16x16'}],
+      ['link', {rel: 'icon', href: 'https://cdn.staticaly.com/gh/dlOwOlb/idle_bed/master/2023/05/26e943c9423e7447608b677ba1fc302002.ico', type: 'image/png'}],
+      ['link', {rel: 'alternate icon', href: 'https://cdn.staticaly.com/gh/dlOwOlb/idle_bed/master/2023/05/26e943c9423e7447608b677ba1fc302002.ico', type: 'image/png', sizes: '16x16'}],
 
   ],
   vite: {
@@ -92,7 +91,7 @@ export default defineConfig({
       copyright:
         'MIT Licensed | <a target="_blank" href="https://theme.sugarat.top/"> @sugarat/theme </a>'
     },
-    logo: 'https://cdn.staticaly.com/gh/dlOwOlb/idle_bed/master/2023/05/26e943c9423e7447608b677ba1fc302002.ico',
+    logo: 'https://cdn.staticaly.com/gh/dlOwOlb/idle_bed/master/2023/05/2675bb61adef68462f99f41642dd6a918d.jpg',
     // editLink: {
     //   pattern:
     //     'https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path',
