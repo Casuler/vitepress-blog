@@ -1,6 +1,5 @@
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
-
-const version = 0.1.0
+import packageJSON from '../../package.json'
 
 const blogTheme = getThemeConfig({
   // 文章默认作者
@@ -91,11 +90,11 @@ export default defineConfig({
     footer: {
       message: 'A blog for personal knowledge base~',
       copyright:
-        'MIT Licensed | <a target="_blank" href="https://dlOwOlb.github.io/"> 四宮かぐや@{packageJSON.version} </a>'
+        'MIT Licensed | <a target="_blank" href="https://dlOwOlb.github.io/"> 四宮かぐや</a>'
     },
     nav:[
       {
-        text: `v${version}`,
+        text: `v${packageJSON.version}`,
         link: '/changelog'
       },
     ],

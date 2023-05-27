@@ -112,7 +112,7 @@ cover: https://img.cdn.sugarat.top/mdImg/MTY3MzE0Njg5NDY4OQ==673146894689
 可以通过下面的 `hiddenCover` 隐藏文章页的展示
 
 ### hiddenCover
-`hiddenCover` 控制是否展示当前文章的封面，全局配置开关见 [article.hiddenCover](./global.md#article)
+`hiddenCover` 控制是否展示当前文章的封面
 ```md
 ---
 hiddenCover: true 
@@ -153,10 +153,10 @@ author: 四宮かぐや
 
 ![图片](https://img.cdn.sugarat.top/mdImg/MTY3MzE4MjA0ODcxMA==673182048710)
 
-如果没有单独设置则会默认使用全局的 `author` 配置，这个在 [全局配置: author](./global.md#author) 有介绍
+如果没有单独设置则会默认使用全局的 `author` 配置
 
 ### readingTime
-单独设置是否展示文章的预计阅读时间，全局配置开关见 [article.readingTime](./global.md#article)
+单独设置是否展示文章的预计阅读时间
 
 ```md
 ---
