@@ -1,7 +1,7 @@
 ---
 title: TypeScript笔记
 date: 2020-10-08 13:02:48
-sticky: 999
+sticky: true
 categories: 
   - 前端
   - 学习笔记
